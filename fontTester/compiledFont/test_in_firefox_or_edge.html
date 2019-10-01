@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <meta charset="UTF-8">
+ <title>SVG-in-OpenType Font @font-face tester </title>
+ <style>
+ @font-face{font-family:'colfont'; font-style: normal;  font-weight: 500; src: url('./DigitaltTColor.ttf');}
+ body { color:#dedede; background-color: #70a0a0; margin: 25px;font-family: Sans-Serif;}
+ .test  { font-family: colfont;}
+ #testT { text-align: center; font-size:160px;}
+ #testN { text-align: left; font-size:120px;}
+ #testE { text-align: left; font-size:160px;border: 1px dashed #f39412; padding: 10px;}
+ #testE:focus { border: 1px dashed #dddddd;}
+ </style>
+</head>
+<body>
+Open­Type SVG color font (SVG-​in-​OT) for­mat is pro­posal for multi-​color, vec­tor fonts, and is imple­mented in <b>Mozilla Fire­fox</b> (v. >= 26) and <b>Microsoft Edge</b> (v. >= 38.14393). If You’re visit this page with Fire­fox or Microsoft Edge, You should see (and try type) text bel­low with col­ors and gra­di­ents. If your browser doesn’t have SvgInOT sup­port, You will see one color text. 
+<div id="testT" class="test">SVG in OpenType font</div>
+<div id="testE" class="test" contenteditable="" spellcheck="false">Try it. Type here.</div>
+</body>
+</html>
