@@ -1,4 +1,5 @@
-# SVGinOT layers Compositor
+![SVGinOT layers Compositor](https://github.com/glukfonts/SVGinOTlayersCompositor/blob/master/doc/svginot-banner_800.png)
+
 python 2.x script for FontForge. My first SVGinOpenType color fonts generator. Hope, will work...
  
 # How to install:
@@ -28,3 +29,4 @@ python 2.x script for FontForge. My first SVGinOpenType color fonts generator. H
 8. click **"Generate OpenTypeSVG font"** Button
 9. in your .sfd directory  will be generated font *xxxxxxColor.ttf*
 
+PDF with details: (https://github.com/glukfonts/SVGinOTlayersCompositor/blob/master/doc/howto.pdf)
